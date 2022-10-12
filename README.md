@@ -103,5 +103,6 @@ __Balanced Random Forest Classifier__ has also high recall score __(0.83)__ that
 
 The __Cluster Centroid Undersampling__ has lowest __recall : 0.40__ and lowest __f1 score : 0.56__.  Also, Random Oversampling, SSMOTE and SMOTEEN have __recall 0.60, 0.69 and 0.57__ respectively with __f1 scores 0.75, 0.81 and 0.72__ respectively. 
 
+
 Also the average precision for high risk and low risk is same for all algorithms. Here , we don’t have much data of high risk to train our machine. Somehow data unbalancing affects the performance of sampling algorithms. Only, EES gives some satisfactory results but unbalanced distribution of data might raise questions on its high risk credit predictions. 
 
