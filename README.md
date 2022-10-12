@@ -16,15 +16,27 @@
   
     Balanced accuracy score for random oversampling is __0.661432911298613__.
 
-    Now, consider following __confusion matrix__ and _classification report__ images. 
+    Now, consider following __confusion matrix__ and __classification report__ images. 
+    
+    ![cm_os](https://user-images.githubusercontent.com/107717882/195459070-a281cbc2-633c-46d8-9dae-9ffdeb91b3dc.png)
+    
 
+    ![OS_report](https://user-images.githubusercontent.com/107717882/195459090-73326a6d-925d-4d27-8fb8-2849ff12afac.png)
+
+    
 * __SMOTE Oversampling__
 
     SMOTE is another oversampling approach to deal with unbalanced datasets. In SMOTE, like random oversampling, the size of the minority is increased. The key             difference between the two lies in how the minority class is increased in size.
   
     Balanced accuracy score for SMOTE oversampling is __0.6581159869962674__.
 
-    Now, consider following __confusion matrix__ and _classification report__ images. 
+    Now, consider following __confusion matrix__ and __classification report__ images. 
+    
+    ![cm_SMOTE](https://user-images.githubusercontent.com/107717882/195459151-62092df5-d29e-4d50-9005-2d2a594b9d96.png)
+
+
+    ![SMOTE_report](https://user-images.githubusercontent.com/107717882/195459169-e5d9936a-b281-46c5-8e96-4d40b0c28f3d.png)
+
   
 * __Undersampling__
 
@@ -32,7 +44,13 @@
 
     Balanced accuracy score for undersampling is __0.5442661782548694__.
 
-    Now, consider following __confusion matrix__ and _classification report__ images. 
+    Now, consider following __confusion matrix__ and __classification report__ images. 
+    
+    ![cm_us](https://user-images.githubusercontent.com/107717882/195459191-20ab0fcd-631a-4284-91d4-005c8ce79f46.png)
+
+
+    ![US_report](https://user-images.githubusercontent.com/107717882/195459214-51509943-5b9f-4574-9b84-1a1181d5047d.png)
+
   
 * __Combination (over and under) Sampling – SMOTEENN__
 
@@ -40,7 +58,13 @@
 
     Balanced accuracy score for SMOTEENN is __0.6710719627856143__.
 
-    Now, consider following __confusion matrix__ and _classification report__ images. 
+    Now, consider following __confusion matrix__ and __classification report__ images. 
+    
+    ![cm_SMOTEENN](https://user-images.githubusercontent.com/107717882/195459253-2793927d-9514-4975-94d1-bbf3266b9379.png)
+
+
+    ![SMOTEENN_report](https://user-images.githubusercontent.com/107717882/195459284-dfb0773c-7774-4a19-a880-c60346f9d644.png)
+
 
 * __Balanced Random Forest Classifier__
 
@@ -48,7 +72,13 @@
       
     Balanced accuracy score for Balanced Random Forest Classifier is __0.7885466545953005__.
   
-    Now, consider following __confusion matrix__ and _classification report__ images. 
+    Now, consider following __confusion matrix__ and __classification report__ images. 
+    
+    ![cm_BRFC](https://user-images.githubusercontent.com/107717882/195459315-c79a5218-6b3d-4275-ac4e-ec55ab573741.png)
+
+
+    ![BRFC_report](https://user-images.githubusercontent.com/107717882/195459340-0aeb6c31-eeeb-4456-9f64-afee1a9b88e0.png)
+    
 
 * __Easy Ensemble Classifier__
 
@@ -56,7 +86,13 @@
   
     Balanced accuracy score is for Easy Ensemble Classifier is  __0.9316600714093861__.
     
-    Now, consider following __confusion matrix__ and _classification report__ images. 
+    Now, consider following __confusion matrix__ and __classification report__ images. 
+    
+    ![cm_eeac](https://user-images.githubusercontent.com/107717882/195459387-265d195d-7ad3-4438-b1d5-033f8606d267.png)
+
+    ![EEAC_report](https://user-images.githubusercontent.com/107717882/195459408-493c52fc-b8e9-4e73-ba16-f6d4d3723ae8.png)
+
+    
 
 ## Summary
 
